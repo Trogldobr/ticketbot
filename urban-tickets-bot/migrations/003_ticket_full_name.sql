@@ -1,0 +1,5 @@
+ALTER TABLE users
+ADD COLUMN IF NOT EXISTS full_name TEXT;
+
+ALTER TABLE payments
+ADD COLUMN IF NOT EXISTS ticket_full_name TEXT;

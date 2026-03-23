@@ -1,0 +1,6 @@
+aiogram>=3.4.0
+SQLAlchemy>=2.0.29
+asyncpg>=0.29.0
+redis>=5.0.1
+python-dotenv>=1.0.1
+openpyxl>=3.1.2
